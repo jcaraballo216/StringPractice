@@ -72,8 +72,9 @@ namespace StringPractice
             //create variabel for first name
             //create variable for second name
             //Print names are same or different
-
+            Console.WriteLine("Please type your name!");
             string personOne = Console.ReadLine();
+            Console.WriteLine("Please type second name!");
             string otherPerson = Console.ReadLine();
             if (personOne == otherPerson)
             {
